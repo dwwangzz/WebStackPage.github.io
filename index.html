@@ -2,78 +2,275 @@
 <html lang="zh">
 
 <head>
-    <link rel="shortcut icon" href="./assets/images/favicon.png">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?c05bb16ea908292af9f6c513087a1cc3";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8550836177608334",
-        enable_page_level_ads: true
-    });
-    </script>
-    <meta charset="UTF-8">
-    <title>WebStack.cc - 设计师网址导航</title>
-    <script>
-    if (navigator.appName == "Netscape") {
-        var language = navigator.language;
-    } else {
-        var language = navigator.browserLanguage;
-
-    }
-
-    if (language.indexOf("en") > -1) {
-        document.location.href = "en/index.html";
-    } else if (language.indexOf("zh") > -1) {
-        document.location.href = "cn/index.html";
-    } else {
-        document.location.href = "en/index.html";
-
-    }
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="viggo" />
-    <title>WebStack.cc - Collection of resources and tools for Designers</title>
-    <meta name="keywords" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,UX师网址导航,www.webstack.cc">
-    <meta name="description" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    
-    <!-- / FB Open Graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="http://www.webstack.cc/">
-    <meta property="og:title" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <meta property="og:description" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,UX师网址导航,www.webstack.cc">
-    <meta property="og:image" content="http://www.webstack.cc/assets/images/webstack_banner_cn.png">
-    <meta property="og:site_name" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <!-- / Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <meta name="twitter:description" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,UX师网址导航,www.webstack.cc">
-    <meta name="twitter:image" content="http://www.webstack.cc/assets/images/webstack_banner_cn.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="viggo"/>
+    <title>AI学习资料导航</title>
+    <link rel="shortcut icon" href="./assets/images/favicon2.png">
+    <link rel="stylesheet" href="./assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="./assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/xenon-core.css">
+    <link rel="stylesheet" href="./assets/css/xenon-components.css">
+    <link rel="stylesheet" href="./assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <script src="./assets/js/jquery-1.11.1.min.js"></script>
+    <script src="./assets/js/vue2.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111463289-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+<body class="page-body">
+<!-- skin-white -->
+<div class="page-container" id="app">
+    <div class="sidebar-menu toggle-others fixed">
+        <div class="sidebar-menu-inner">
+            <header class="logo-env">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="index.html" class="logo-expanded">
+                        <img src="./assets/images/ai-study.png" width="100%" alt=""/>
+                    </a>
+                </div>
+                <div class="mobile-menu-toggle visible-xs">
+                    <a href="#" data-toggle="user-info-menu">
+                        <i class="linecons-cog"></i>
+                    </a>
+                    <a href="#" data-toggle="mobile-menu">
+                        <i class="fa-bars"></i>
+                    </a>
+                </div>
+            </header>
+            <!-- 菜单栏 -->
+            <ul id="main-menu" class="main-menu">
+                <template v-for="item in menus" :key="item.message">
+                    <template v-if="item.href">
+                        <li>
+                            <a :href="item.href">
+                                <i :class="item.linecons"></i>
+                                <span class="tooltip-blue">{{ item.menuName }}</span>
+                                <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
+                            </a>
+                        </li>
+                    </template>
+                    <template v-else>
+                        <li v-if="item.childrens?.length">
+                            <a>
+                                <i :class="item.linecons"></i>
+                                <span class="title">{{ item.menuName}}</span>
+                            </a>
+                            <ul>
+                                <li v-for="(child,index) in item.childrens" :key="index">
+                                    <a :href="'#'+child.menuName" class="smooth">
+                                        <span class="title">{{ child.menuName}}</span>
+                                        <span v-if="child.hot"
+                                              class="label label-pink pull-right hidden-collapsed">Hot</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li v-else>
+                            <a :href="'#'+item.menuName" class="smooth">
+                                <i :class="item.linecons"></i>
+                                <span class="title">{{ item.menuName }}</span>
+                            </a>
+                        </li>
+                    </template>
+                </template>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <nav class="navbar user-info-navbar" role="navigation">
+            <!-- User Info, Notifications and Menu Bar -->
+            <!-- Left links for user info navbar -->
+            <ul class="user-info-menu left-links list-inline list-unstyled">
+                <li class="hidden-sm hidden-xs">
+                    <a href="#" data-toggle="sidebar">
+                        <i class="fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- 内容栏 -->
+        <template v-for="(item,index) in menus" :key="index">
+            <template v-if="item.leaf">
+                <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" :id="item.menuName"></i>{{
+                    item.menuName }}</h4>
+                <div class="row" v-for="(arr,index) in item.contents" :key="index">
+                    <div class="col-sm-3" v-for="(e,idx2) in arr" :key="idx2">
+                        <div class="xe-widget xe-conversations box2 label-info"
+                             :onclick="`window.open('${e.url}', '_blank')`" data-toggle="tooltip"
+                             data-placement="top" title="" :data-original-title="e.url">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img :data-src="e.icon" class="lozad img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>{{ e.title }}</strong>
+                                    </a>
+                                    <p class="overflowClip_2">{{ e.remark}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </template>
+            <template v-else>
+                <template v-for="(child,idx1) in item.childrens">
+                    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;"
+                                             :id="child.menuName"></i>{{ child.menuName }}</h4>
+                    <div class="row" v-for="(arr,idx2) in child.contents" :key="idx2">
+                        <div class="col-sm-3" v-for="(e,idx3) in arr" :key="idx3">
+                            <div class="xe-widget xe-conversations box2 label-info"
+                                 :onclick="`window.open('${e.url}', '_blank')`" data-toggle="tooltip"
+                                 data-placement="top" title="" :data-original-title="e.url">
+                                <div class="xe-comment-entry">
+                                    <a class="xe-user-img">
+                                        <img :data-src="e.icon" class="lozad img-circle" width="40">
+                                    </a>
+                                    <div class="xe-comment">
+                                        <a href="#" class="xe-user-name overflowClip_1">
+                                            <strong>{{ e.title }}</strong>
+                                        </a>
+                                        <p class="overflowClip_2">{{ e.remark}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </template>
+            </template>
+        </template>
+    </div>
+    <br/>
+</div>
+</div>
+<!-- 锚点平滑移动 -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        //img lazy loaded
+        const observer = lozad();
+        observer.observe();
 
-    function gtag() {
-        dataLayer.push(arguments);
+        $(document).on('click', '.has-sub', function () {
+            var _this = $(this)
+            if (!$(this).hasClass('expanded')) {
+                setTimeout(function () {
+                    _this.find('ul').attr("style", "")
+                }, 300);
+
+            } else {
+                $('.has-sub ul').each(function (id, ele) {
+                    var _that = $(this)
+                    if (_this.find('ul')[0] != ele) {
+                        setTimeout(function () {
+                            _that.attr("style", "")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function () {
+            if ($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style", "")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function () {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function (ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function (e) {
+        $("#main-menu li").each(function () {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+</script>
+<!-- Bottom Scripts -->
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/TweenMax.min.js"></script>
+<script src="./assets/js/resizeable.js"></script>
+<script src="./assets/js/joinable.js"></script>
+<script src="./assets/js/xenon-api.js"></script>
+<script src="./assets/js/xenon-toggles.js"></script>
+<!-- JavaScripts initializations and stuff -->
+<script src="./assets/js/xenon-custom.js"></script>
+<script src="./assets/js/lozad.js"></script>
+<script>
+    let menus = []
+    $.ajaxSettings.async = false;
+    $.getJSON('./assets/json/data.json', function (data) {
+        menus = data;
+        if (menus.length) {
+            for (let key in menus) {
+                if (menus[key]?.contents && menus[key]?.contents?.length) {
+                    menus[key].contents = groupArray(menus[key].contents, 4)
+                }
+                if (menus[key].childrens) {
+                    for (let i in menus[key].childrens) {
+                        menus[key].childrens[i].contents = groupArray(menus[key].childrens[i].contents, 4)
+                    }
+                }
+            }
+        }
+
+    });
+    $.ajaxSettings.async = true
+    var app = new Vue({
+        el: '#app',
+        data: {
+            menus: menus
+        }
+    })
+
+    /**
+     * 数组分组
+     * @param array
+     * @param chunkSize
+     * @returns {*[]}
+     */
+    function groupArray(array, chunkSize) {
+        if (!array) {
+            return [];
+        }
+        const result = [];
+        for (let i = 0; i < array.length; i += chunkSize) {
+            result.push(array.slice(i, i + chunkSize));
+        }
+        return result;
     }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-111463289-1');
-    </script>
+</script>
 </body>
 
 </html>

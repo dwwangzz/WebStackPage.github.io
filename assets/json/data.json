@@ -1,0 +1,319 @@
+[
+  {
+    "menuName": "AI聊天工具",
+    "linecons": "linecons-star",
+    "leaf": true,
+    "contents": [
+      {
+        "icon": "../assets/images/logos/ChatGPT.png",
+        "title": "Chat GTP",
+        "remark": "ChatGPT是一款基于GPT-3.5架...",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "icon": "../assets/images/logos/bing.png",
+        "title": "Bing Chat",
+        "remark": "Bing Chat整合后的新版必应采用OpenAI的AI模型GPT 3.5的升级版GPT-4，比ChatGPT使用的GPT 3.5更强大",
+        "url": "https://www.bing.com/"
+      },
+      {
+        "icon": "../assets/images/logos/google.png",
+        "title": "Bard",
+        "remark": "产品经理、产品爱好者学习交流平台",
+        "url": "https://bard.google.com/"
+      },
+      {
+        "icon": "../assets/images/logos/ai.png",
+        "title": "Character AI",
+        "remark": "Character AI是一个神经语言模型聊天机器人网络应用程序，可以生成类似人类的文本回复，并结合上下文进行对话。该程序由谷歌对话编程语言模型（LaMDA）的前开发者诺姆·沙泽尔（Noam Shazeer）和丹尼尔·德·弗雷塔斯（Daniel De Freitas）共同开发，测试版于2022年9月提供给公众使用。",
+        "url": "https://beta.character.ai/"
+      },
+      {
+        "icon": "../assets/images/logos/baidu.png",
+        "title": "文心一言",
+        "remark": "百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。",
+        "url": "https://yiyan.baidu.com/"
+      },
+      {
+        "icon": "../assets/images/logos/baidu.png",
+        "title": "灵感中心",
+        "remark": "百度AI灵感中心，目前处于测试版",
+        "url": "https://inspiration.baidu.com/app?source=aisearch/"
+      },
+      {
+        "icon": "../assets/images/logos/Tongyi_Qianwen.png",
+        "title": "通义千问",
+        "remark": "产品经理、产品爱好者学习交流平台",
+        "url": "https://tongyi.aliyun.com/"
+      }
+    ]
+  },
+  {
+    "menuName": "AI绘画",
+    "linecons": "linecons-pencil",
+    "leaf": false,
+    "childrens": [
+      {
+        "menuName": "AI绘画网站",
+        "contents": [
+          {
+            "icon": "../assets/images/logos/bing.png",
+            "title": "Bing",
+            "remark": "Bing AI绘画",
+            "url": "https://www.bing.com/images/create"
+          },
+          {
+            "icon": "../assets/images/logos/baidu.png",
+            "title": "文心一格",
+            "remark": "国内首个技术自研、基于大模型的通用且可控的文生图系统，可基于自然语言智能生成不限定风格的图像，面向有图片创作需求的开发者提供API调用服务，为内容创作者提供灵感和高质量配图",
+            "url": "https://yige.baidu.com"
+          },
+          {
+            "icon": "../assets/images/logos/ai.png",
+            "title": "Stable Diffusion",
+            "remark": "Stable Diffusion是2022年发布的深度学习文本到图像生成模型",
+            "url": "https://stablediffusionweb.com"
+          },
+          {
+            "icon": "../assets/images/logos/ai.png",
+            "title": "Stable Diffusion 本地部署版",
+            "remark": "Stable Diffusion是2022年发布的深度学习文本到图像生成模型",
+            "url": "http://10.20.154.141:7860"
+          }
+        ]
+      },
+      {
+        "menuName": "AI绘画学习",
+        "contents": [
+          {
+            "icon": "../assets/images/logos/civitai.png",
+            "title": "Civitai",
+            "remark": "模型下载",
+            "url": "https://civitai.com/"
+          },
+          {
+            "icon": "../assets/images/logos/gulusucai.png",
+            "title": "huggingface",
+            "remark": "模型下载",
+            "url": "https://huggingface.co/"
+          },
+          {
+            "icon": "../assets/images/logos/bilibili.png",
+            "title": "B站学习教程",
+            "remark": "B站学习视频",
+            "url": "https://www.bilibili.com/video/BV1uL411e7Uk/"
+          },
+          {
+            "icon": "../assets/images/logos/bilibili.png",
+            "title": "全套入门教程",
+            "remark": "B站学习视频",
+            "url": "https://www.bilibili.com/read/cv22159609"
+          },
+          {
+            "icon": "../assets/images/logos/bilibili.png",
+            "title": "快速入门生成图片",
+            "remark": "B站学习视频",
+            "url": "https://www.bilibili.com/read/cv22661198"
+          },
+          {
+            "icon": "../assets/images/logos/bilibili.png",
+            "title": "模型安装使用教程",
+            "remark": "B站学习视频",
+            "url": "https://www.bilibili.com/read/cv21362202"
+          },
+          {
+            "icon": "../assets/images/logos/bilibili.png",
+            "title": "2023年4月模型分享",
+            "remark": "B站学习视频",
+            "url": "https://www.bilibili.com/video/BV1em4y1z7Dg"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "AI 作图知识库(教程)",
+            "remark": "学习网站",
+            "url": "https://guide.novelai.dev/"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "标签超市(解析组合)",
+            "remark": "学习网站",
+            "url": "https://tags.novelai.dev/"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "原图提取标签",
+            "remark": "学习网站",
+            "url": "https://spell.novelai.dev/"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "入门参数设置基础",
+            "remark": "学习网站",
+            "url": "https://guide.novelai.dev/guide/configuration/param-basic"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "常见安装问题",
+            "remark": "学习网站",
+            "url": "https://guide.novelai.dev/s/troubleshooting/install"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "常见跑图问题",
+            "remark": "学习网站",
+            "url": "https://guide.novelai.dev/s/troubleshooting/generate"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "怎么写提示词",
+            "remark": "学习网站",
+            "url": "https://guide.novelai.dev/advanced/prompt-engineering/"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "怎么训练模型",
+            "remark": "学习网站",
+            "url": "https://guide.novelai.dev/advanced/finetuning/"
+          },
+          {
+            "icon": "../assets/images/logos/doc.png",
+            "title": "最新消息",
+            "remark": "学习网站",
+            "url": "https://guide.novelai.dev/newsfeed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menuName": "AI声音处理",
+    "linecons": "linecons-sound",
+    "leaf": false,
+    "childrens": [
+      {
+        "menuName": "AI声音网站",
+        "contents": [
+          {
+            "icon": "../assets/images/logos/Tongyi_Qianwen.png",
+            "title": "通义听语",
+            "remark": "通义听语",
+            "url": "https://tingwu.aliyun.com/"
+          },
+          {
+            "icon": "../assets/images/logos/bing.png",
+            "title": "Microsoft Azure",
+            "remark": "微软的文字转语音的服务，目前可以试用",
+            "url": "https://azure.microsoft.com/zh-cn/products/cognitive-services/text-to-speech"
+          },
+          {
+            "icon": "../assets/images/logos/ai.png",
+            "title": "so-vits-svc 本地部署",
+            "remark": "so-vits-svc是一个开源的AI声音处理项目",
+            "url": "http://10.20.154.140:7860"
+          }
+        ]
+      },
+      {
+        "menuName": "AI声音学习",
+        "contents": [
+          {
+            "icon": "../assets/images/logos/ai.png",
+            "title": "so-vits-svc安装使用教程",
+            "remark": "so-vits-svc安装使用教程",
+            "url": "https://www.bilibili.com/video/BV1Us4y1v7Wn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menuName": "AI办公",
+    "linecons": "linecons-sound",
+    "leaf": false,
+    "childrens": [
+      {
+        "menuName": "AI办公网站",
+        "contents": [
+          {
+            "icon": "../assets/images/logos/github-icon.svg",
+            "title": "Github Copilot",
+            "remark": "Github Copilot",
+            "url": "https://github.com/features/copilot"
+          },
+          {
+            "icon": "../assets/images/logos/Notion-logo.svg",
+            "title": "Notion AI",
+            "remark": "Notion AI",
+            "url": "https://www.notion.so/zh-cn"
+          }
+        ]
+      },
+      {
+        "menuName": "AI办公资料",
+        "contents": [
+          {
+            "icon": "../assets/images/logos/github-icon.svg",
+            "title": "Github copilot：01 如何注册激活插件",
+            "remark": "学习资料",
+            "url": "https://ducafecat.com/blog/github-copilot-vsc-android-studio-register-setup"
+          },
+          {
+            "icon": "../assets/images/logos/github-icon.svg",
+            "title": "GitHub Copilot：02 必须知道的7个技巧帮助你代码自动补全",
+            "remark": "学习资料",
+            "url": "https://ducafecat.com/blog/7-must-know-tips-to-help-you-autocomplete-your-code-with-github-copilot-02"
+          },
+          {
+            "icon": "../assets/images/logos/github-icon.svg",
+            "title": "GitHub Copilot：03 又6个技巧提升你人工智能编程效率",
+            "remark": "学习资料",
+            "url": "https://ducafecat.com/blog/6-tips-to-improve-your-ai-programming-efficiency-with-github-copilot-03"
+          },
+          {
+            "icon": "../assets/images/logos/github-icon.svg",
+            "title": "GitHub Copilot Labs",
+            "remark": "学习资料",
+            "url": "https://juejin.cn/post/7205755166892113981"
+          },
+          {
+            "icon": "../assets/images/logos/Notion-logo.svg",
+            "title": "Notion 中文文档",
+            "remark": "学习资料",
+            "url": "https://www.notion.so/Notion-64ab96a7fccf4d74b9a9a68b338bc501"
+          },
+          {
+            "icon": "../assets/images/logos/Notion-logo.svg",
+            "title": "Notion 教程中心",
+            "remark": "学习资料",
+            "url": "https://www.notion.so/054e065841894c4e8852afd629c9fbdc?v=5252996e302b466b8e4fc4d044009383"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menuName": "开源项目地址",
+    "linecons": "linecons-sound",
+    "leaf": true,
+    "contents": [
+      {
+        "icon": "../assets/images/logos/github-icon.svg",
+        "title": "stable-diffusion-webui 图片生成",
+        "remark": "项目地址",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+      },
+      {
+        "icon": "../assets/images/logos/github-icon.svg",
+        "title": "so-vits-svc 声音模拟",
+        "remark": "项目地址",
+        "url": "https://github.com/svc-develop-team/so-vits-svc"
+      },
+      {
+        "icon": "../assets/images/logos/github-icon.svg",
+        "title": "分离人声和背景音乐",
+        "remark": "项目地址",
+        "url": "https://github.com/Anjok07/ultimatevocalremovergui"
+      }
+    ]
+  }
+]

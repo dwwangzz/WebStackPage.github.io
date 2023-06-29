@@ -1,0 +1,79 @@
+[
+    {
+        "menuName": "常用推荐",
+        "linecons": "linecons-star",
+        "leaf": true,
+        "contents": [
+            {
+                "icon": "../assets/images/logos/woshipm.png",
+                "title": "人人都是产品经理",
+                "remark": "产品经理、产品爱好者学习交流平台",
+                "url": "http://www.woshipm.com/"
+            }
+        ]
+    },
+    {
+        "menuName": "社区资讯",
+        "linecons": "linecons-doc",
+        "leaf": true
+    },
+    {
+        "menuName": "灵感采集",
+        "linecons": "linecons-lightbulb",
+        "leaf": false,
+        "childrens": [
+            {
+                "menuName": "发现产品",
+                "contents": [
+                    {
+                        "icon": "../assets/images/logos/woshipm.png",
+                        "title": "互联网早读课",
+                        "remark": "互联网行业深度阅读与学习平台",
+                        "url": "http://www.woshipm.com/"
+                    }
+                ]
+            },
+            {
+                "menuName": "界面灵感"
+            },
+            {
+                "menuName": "发现产品2",
+                "hot": true
+            }
+        ]
+    },
+    {
+        "menuName": "素材资源",
+        "linecons": "linecons-thumbs-up",
+        "leaf": false,
+        "childrens": [
+            {
+                "menuName": "图标素材"
+            },
+            {
+                "menuName": "LOGO设计"
+            }
+        ]
+    },
+    {
+        "menuName": "常用工具",
+        "linecons": "linecons-diamond",
+        "leaf": false,
+        "childrens": [
+            {
+                "menuName": "图形创意"
+            }
+        ]
+    },
+    {
+        "menuName": "UED团队",
+        "linecons": "linecons-user",
+        "leaf": true
+    },
+    {
+        "menuName": "关于本站",
+        "linecons": "linecons-pencil",
+        "href": "about.html",
+        "leaf": true
+    }
+]
