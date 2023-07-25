@@ -73,12 +73,6 @@
             "title": "Stable Diffusion",
             "remark": "Stable Diffusion是2022年发布的深度学习文本到图像生成模型",
             "url": "https://stablediffusionweb.com"
-          },
-          {
-            "icon": "../assets/images/logos/ai.png",
-            "title": "Stable Diffusion 本地部署版",
-            "remark": "Stable Diffusion是2022年发布的深度学习文本到图像生成模型",
-            "url": "http://10.20.154.141:7860"
           }
         ]
       },
@@ -204,12 +198,6 @@
             "title": "Microsoft Azure",
             "remark": "微软的文字转语音的服务，目前可以试用",
             "url": "https://azure.microsoft.com/zh-cn/products/cognitive-services/text-to-speech"
-          },
-          {
-            "icon": "../assets/images/logos/ai.png",
-            "title": "so-vits-svc 本地部署",
-            "remark": "so-vits-svc是一个开源的AI声音处理项目",
-            "url": "http://10.20.154.140:7860"
           }
         ]
       },
